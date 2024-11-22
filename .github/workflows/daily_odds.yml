@@ -4,6 +4,7 @@ on:
   schedule:
     # 1:00 PM EST
     - cron: '0 18 * * *'
+  workflow_dispatch:
 
 jobs:
   run-script:
