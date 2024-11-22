@@ -30,8 +30,8 @@ jobs:
       env:
         CLOUD_API_KEY: ${{ secrets.CLOUD_API_KEY }}
     - name: Move CSV
-      run: mv *.csv /DailyData
-      
+      run: mv *.csv DailyData/Moneyline
+
     - name: Commit and push CSV file
       run: |
         git config --local user.name "github-actions[bot]"
