@@ -4,7 +4,7 @@ import math
 
 def decimal_to_american(decimal_odds):
     if pd.isna(decimal_odds) or math.isnan(decimal_odds):
-        return decimal_odds  
+        return 0 
     try:
         if decimal_odds >= 2.0:
             return int(100 * (decimal_odds - 1))
