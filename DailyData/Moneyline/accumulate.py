@@ -14,7 +14,7 @@ def load_and_process_csv_files(directory):
         df = pd.read_csv(csv_file)
         
         df['Cutoff Time'] = pd.to_datetime(df['Cutoff Time'])
-        df['Cutoff Date'] = df['Cutoff Time']
+        df['Cutoff Date'] = df['Cutoff Time'].dt.date
         
         all_dataframes.append(df)
 
@@ -35,6 +35,9 @@ def main():
     print(result_df)
 
     result_df.to_csv('merged_data.csv', index=False)
+    result_df.sort_values(by=['Cutoff Time'], ascending=[True], inplace=True)
+    result_df.to_csv('merged_data_time.csv', index=False)
+
 
 if __name__ == "__main__":
     main()
