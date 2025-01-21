@@ -1,10 +1,10 @@
 import pandas as pd
 from datetime import datetime, timedelta
 
-odds_file = 'transformed_odds_with_full_team_names.csv'  
+odds_file = 'jan_transformed_odds_with_full_team_names.csv'  
 odds_data = pd.read_csv(odds_file)
 
-game_details_file = 'preMergeOctDates.csv'  
+game_details_file = 'jan_game_results.csv'  
 game_details_data = pd.read_csv(game_details_file)
 
 odds_data.columns = odds_data.columns.str.strip()
