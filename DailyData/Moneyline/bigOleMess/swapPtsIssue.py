@@ -14,6 +14,7 @@ with open(input_file, mode='r', newline='', encoding='utf-8') as infile, \
 
     for row in reader:
         row['PTS'], row['PTS2'] = row['PTS2'], row['PTS']
+        row['AwayOdds'], row['HomeOdds'] =  row['HomeOdds'], row['AwayOdds']
         writer.writerow(row)
 
 print(f"Swapped PTS and PTS2 successfully. Output saved to {output_file}.")
