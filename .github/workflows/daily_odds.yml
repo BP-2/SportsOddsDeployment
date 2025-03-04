@@ -29,15 +29,18 @@ jobs:
       run: python ExternalAPI/moneyline/cloud_odds.py
       env:
         CLOUD_API_KEY: ${{ secrets.CLOUD_API_KEY }}
+        FIREBASE_ADMIN_AUTH: ${{ secrets.FIREBASE_ADMIN_AUTH }}
     - name: Move CSV
       run: mv *.csv DailyData/Moneyline
+      run: mv *.json DailyData/Moneyline/jsonStorage
 
     - name: Commit and push CSV file
       run: |
         git config --local user.name "github-actions[bot]"
         git config --local user.email "github-actions[bot]@users.noreply.github.com"
         git add *.csv
-        git commit -m "Automated CSV update
+        git add *.json
+        git commit -m "Automated CSV, JSON, and Firebase update
 
         
         Co-authored-by: BP-2 <bp309420@ohio.edu>"

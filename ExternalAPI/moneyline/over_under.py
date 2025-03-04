@@ -11,11 +11,9 @@ import requests
 from dotenv import load_dotenv
 import os
 import csv
-import json
-import firebase_admin
-from firebase_admin import credentials, firestore
+from datetime import datetime
+from pprint import pprint
 
-from datetime import datetime, timezone, timedelta
 
 # grabbing the API key from environment variable
 load_dotenv()  
@@ -24,15 +22,6 @@ if not API_KEY:
     raise ValueError("API key is not set in the .env file.")
 
 API_URL = "https://sports-api.cloudbet.com/pub/v2/odds/competitions/basketball-usa-nba" #endpoint
-
-
-firebase_private_key = os.getenv('FIREBASE_ADMIN_AUTH')
-if firebase_private_key is None:
-    raise ValueError("Firebase admin private key not found in environment variables.")
-
-cred = credentials.Certificate(json.loads(firebase_private_key))
-firebase_admin.initialize_app(cred)
-db = firestore.client()
 
 # Logs todays odds to a csv
 def fetch_nba_moneyline_odds_csv():
@@ -46,8 +35,9 @@ def fetch_nba_moneyline_odds_csv():
 
     if response.status_code == 200: # if it returned succesfully
         data = response.json()
+        #print(data)
         events = data.get("events", [])
-        
+        print(events)
         if not events:
             print("No NBA moneyline odds available.") # really we should never reach here
             return
@@ -66,7 +56,13 @@ def fetch_nba_moneyline_odds_csv():
                 home_team = event.get("home", {}).get("name", "Unknown") if event.get("home") else "Unknown"
                 away_team = event.get("away", {}).get("name", "Unknown") if event.get("away") else "Unknown"
                 markets = event.get("markets", {}).get("basketball.moneyline", {}).get("submarkets", {})
-                
+                print("BASKETBALL")
+                print_nested(event.get("markets", {}))
+                print("MARKETS")
+                print_nested(markets)
+
+                over_under = event.get("markets", {}).get("basketball.spread", {}).get("submarkets", {})
+                print(over_under)
                 # Check if both home and away teams exist and are valid
                 if home_team == "Unknown" or away_team == "Unknown":
                     continue  
@@ -75,6 +71,11 @@ def fetch_nba_moneyline_odds_csv():
                 main_period = markets.get("period=ot&period=ft", {}) # gross
                 selections = main_period.get("selections", [])
                 
+                over_under_main_period = over_under.get("period=ot&period=ft", {})
+                selections_over_under = over_under_main_period.get("selections", [])
+                # test_price = selections_over_under.get("price", "N/A")
+                # print(over_under_main_period)
+                # print(test_price)
                 home_odds = "N/A"
                 away_odds = "N/A"
                 
@@ -95,7 +96,8 @@ def fetch_nba_moneyline_odds_csv():
         print(f"Error fetching data. HTTP Status Code: {response.status_code}")
         print(response.text)
         
-def fetch_nba_moneyline_odds_json():
+# Prints out today's moneyline odds. Almost identical to the above function
+def fetch_nba_moneyline_odds():
     params = {"markets": "basketball.moneyline"}
     headers = {
         "accept": "application/json",
@@ -112,10 +114,7 @@ def fetch_nba_moneyline_odds_json():
             print("No NBA moneyline odds available.")
             return
         
-        today_date = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-        tomorrow_date = (datetime.now(timezone.utc) + timedelta(days=1)).strftime("%Y-%m-%d")
-        today_tomorrow_games = []
-        
+        print("NBA Moneyline Odds:\n")
         for event in events:
             game_name = event.get("name", "Unknown")
             cutoff_time = event.get("cutoffTime", "Unknown")
@@ -125,60 +124,37 @@ def fetch_nba_moneyline_odds_json():
             
             main_period = markets.get("period=ot&period=ft", {})
             selections = main_period.get("selections", [])
+            if(game_name != "Unknown" and home_team != "Unknown"): # Here we check for the other entries that are not moneyline and ignore them
+                print(f"Game: {game_name}")
+                print(f"  Home Team: {home_team}")
+                print(f"  Away Team: {away_team}")
+                print(f"  Cutoff Time: {cutoff_time}")
+                print("  Odds:")
             
-            home_odds = "N/A"
-            away_odds = "N/A"
-
-            if home_team == "Unknown" or away_team == "Unknown":
-                    continue  
-            
-            for selection in selections:
-                outcome = selection.get("outcome", "Unknown")
-                price = selection.get("price", "N/A")
-                if outcome == "home":
-                    home_odds = decimal_to_american(price)
-                elif outcome == "away":
-                    away_odds = decimal_to_american(price)
-            
-            if cutoff_time.startswith(today_date) or cutoff_time.startswith(tomorrow_date):
-                today_tomorrow_games.append({
-                    "Game Name": game_name,
-                    "Home Team": home_team,
-                    "Away Team": away_team,
-                    "Cutoff Time": cutoff_time,
-                    "Home Odds": home_odds,
-                    "Away Odds": away_odds
-                })
-        
-        if today_tomorrow_games:
-            filename = f"{today_date}_and_{tomorrow_date}_moneyline.json"
-            with open(filename, "w", encoding="utf-8") as json_file:
-                json.dump(today_tomorrow_games, json_file, indent=4)
-            send_data_to_firebase(today_tomorrow_games, "daily-games-odds")
-            print(f"Today's and tomorrow's game data saved to {filename}")
-        else:
-            print("No games with today's or tomorrow's cutoff time found.")
+            if selections:
+                for selection in selections:
+                    outcome = selection.get("outcome", "Unknown")
+                    price = selection.get("price", "N/A")
+                    team = "Home" if outcome == "home" else "Away" if outcome == "away" else "Unknown"
+                    print(f"    {team}: {price}")
+                print("\n" + "-" * 40 + "\n")
     else:
         print(f"Error fetching data. HTTP Status Code: {response.status_code}")
         print(response.text)
 
-def send_data_to_firebase(data, collection_name):
-    today = datetime.now().strftime("%Y-%m-%d")  
-    doc_ref = db.collection(collection_name).document(f"{today}-gameOdds")
-    doc_ref.set({"games": data})  
+def print_nested(data, indent=0):
+    if isinstance(data, dict):
+        for key, value in data.items():
+            print("  " * indent + f"{key}:")
+            print_nested(value, indent + 1)
+    elif isinstance(data, list):
+        for i, value in enumerate(data):
+            print("  " * indent + f"[{i}]:")
+            print_nested(value, indent + 1)
+    else:
+        print("  " * indent + str(data))
 
 
-def decimal_to_american(decimal_odds):
-    try:
-        decimal_odds = float(decimal_odds)  # Ensure it's a float
-        if decimal_odds >= 2.0:
-            return int(100 * (decimal_odds - 1))
-        else:
-            return int(-100 / (decimal_odds - 1))
-    except (ValueError, TypeError, ZeroDivisionError):
-        return "N/A"  # Handle invalid values safely
 
 # fetch_nba_moneyline_odds()
 fetch_nba_moneyline_odds_csv()
-
-fetch_nba_moneyline_odds_json()
