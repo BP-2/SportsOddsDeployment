@@ -1,4 +1,4 @@
-name: Run Python Script to generate daily Odds and Commit CSV
+name: Run Python Script to generate daily Odds, Commit CSV, and push JSON to Firebase
 
 on:
   schedule:
@@ -31,8 +31,9 @@ jobs:
         CLOUD_API_KEY: ${{ secrets.CLOUD_API_KEY }}
         FIREBASE_ADMIN_AUTH: ${{ secrets.FIREBASE_ADMIN_AUTH }}
     - name: Move CSV
-      run: mv *.csv DailyData/Moneyline
-      run: mv *.json DailyData/Moneyline/jsonStorage
+      run: |
+        mv *.csv DailyData/Moneyline
+        mv *.json DailyData/Moneyline/jsonStorage
 
     - name: Commit and push CSV file
       run: |
