@@ -1,0 +1,74 @@
+[
+    {
+        "Game Name": "IND Pacers v HOU Rockets",
+        "Home Team": "IND Pacers",
+        "Away Team": "HOU Rockets",
+        "Cutoff Time": "2025-03-05T00:00:00Z",
+        "Home Odds": -154,
+        "Away Odds": 137
+    },
+    {
+        "Game Name": "ORL Magic v TOR Raptors",
+        "Home Team": "ORL Magic",
+        "Away Team": "TOR Raptors",
+        "Cutoff Time": "2025-03-05T00:00:00Z",
+        "Home Odds": -281,
+        "Away Odds": 240
+    },
+    {
+        "Game Name": "ATL Hawks v MIL Bucks",
+        "Home Team": "ATL Hawks",
+        "Away Team": "MIL Bucks",
+        "Cutoff Time": "2025-03-05T00:30:00Z",
+        "Home Odds": 201,
+        "Away Odds": -232
+    },
+    {
+        "Game Name": "NY Knicks v GS Warriors",
+        "Home Team": "NY Knicks",
+        "Away Team": "GS Warriors",
+        "Cutoff Time": "2025-03-05T00:30:00Z",
+        "Home Odds": -175,
+        "Away Odds": 155
+    },
+    {
+        "Game Name": "CHI Bulls v CLE Cavaliers",
+        "Home Team": "CHI Bulls",
+        "Away Team": "CLE Cavaliers",
+        "Cutoff Time": "2025-03-05T01:00:00Z",
+        "Home Odds": 516,
+        "Away Odds": -684
+    },
+    {
+        "Game Name": "MIN Timberwolves v PHI 76ers",
+        "Home Team": "MIN Timberwolves",
+        "Away Team": "PHI 76ers",
+        "Cutoff Time": "2025-03-05T01:00:00Z",
+        "Home Odds": -854,
+        "Away Odds": 614
+    },
+    {
+        "Game Name": "SA Spurs v BKN Nets",
+        "Home Team": "SA Spurs",
+        "Away Team": "BKN Nets",
+        "Cutoff Time": "2025-03-05T01:30:00Z",
+        "Home Odds": -156,
+        "Away Odds": 139
+    },
+    {
+        "Game Name": "PHX Suns v LA Clippers",
+        "Home Team": "PHX Suns",
+        "Away Team": "LA Clippers",
+        "Cutoff Time": "2025-03-05T03:00:00Z",
+        "Home Odds": 123,
+        "Away Odds": -138
+    },
+    {
+        "Game Name": "LA Lakers v NO Pelicans",
+        "Home Team": "LA Lakers",
+        "Away Team": "NO Pelicans",
+        "Cutoff Time": "2025-03-05T03:30:00Z",
+        "Home Odds": -357,
+        "Away Odds": 295
+    }
+]
