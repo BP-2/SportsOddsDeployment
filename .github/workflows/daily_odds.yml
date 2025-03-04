@@ -19,12 +19,14 @@ jobs:
       with:
         python-version: '3.x'
 
+    - name: Pull latest changes to avoid conflicts
+      run: git pull --rebase origin main
+
     # We enter this at the home folder. Our files are stored in ExternalAPI/moneyline
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r ExternalAPI/moneyline/requirements.txt
-        git pull
 
     - name: Run Python script
       run: python ExternalAPI/moneyline/cloud_odds.py
