@@ -1,0 +1,74 @@
+[
+    {
+        "Game Name": "CHA Hornets v CLE Cavaliers",
+        "Home Team": "CHA Hornets",
+        "Away Team": "CLE Cavaliers",
+        "Cutoff Time": "2025-03-08T00:00:00Z",
+        "Home Odds": 861,
+        "Away Odds": -1265
+    },
+    {
+        "Game Name": "DAL Mavericks v MEM Grizzlies",
+        "Home Team": "DAL Mavericks",
+        "Away Team": "MEM Grizzlies",
+        "Cutoff Time": "2025-03-08T00:30:00Z",
+        "Home Odds": 347,
+        "Away Odds": -429
+    },
+    {
+        "Game Name": "TOR Raptors v UTA Jazz",
+        "Home Team": "TOR Raptors",
+        "Away Team": "UTA Jazz",
+        "Cutoff Time": "2025-03-08T00:30:00Z",
+        "Home Odds": -233,
+        "Away Odds": 203
+    },
+    {
+        "Game Name": "MIA Heat v MIN Timberwolves",
+        "Home Team": "MIA Heat",
+        "Away Team": "MIN Timberwolves",
+        "Cutoff Time": "2025-03-08T01:00:00Z",
+        "Home Odds": 177,
+        "Away Odds": -201
+    },
+    {
+        "Game Name": "OKC Thunder v POR Trail Blazers",
+        "Home Team": "OKC Thunder",
+        "Away Team": "POR Trail Blazers",
+        "Cutoff Time": "2025-03-08T01:00:00Z",
+        "Home Odds": -140,
+        "Away Odds": 125
+    },
+    {
+        "Game Name": "DEN Nuggets v PHX Suns",
+        "Home Team": "DEN Nuggets",
+        "Away Team": "PHX Suns",
+        "Cutoff Time": "2025-03-08T03:00:00Z",
+        "Home Odds": -287,
+        "Away Odds": 244
+    },
+    {
+        "Game Name": "SAC Kings v SA Spurs",
+        "Home Team": "SAC Kings",
+        "Away Team": "SA Spurs",
+        "Cutoff Time": "2025-03-08T03:00:00Z",
+        "Home Odds": -251,
+        "Away Odds": 216
+    },
+    {
+        "Game Name": "LA Clippers v NY Knicks",
+        "Home Team": "LA Clippers",
+        "Away Team": "NY Knicks",
+        "Cutoff Time": "2025-03-08T03:30:00Z",
+        "Home Odds": -291,
+        "Away Odds": 247
+    },
+    {
+        "Game Name": "CHA Hornets v BKN Nets",
+        "Home Team": "CHA Hornets",
+        "Away Team": "BKN Nets",
+        "Cutoff Time": "2025-03-08T23:00:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    }
+]
