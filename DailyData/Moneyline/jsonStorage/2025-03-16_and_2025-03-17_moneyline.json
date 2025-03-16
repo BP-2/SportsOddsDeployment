@@ -1,0 +1,74 @@
+[
+    {
+        "Game Name": "CLE Cavaliers v ORL Magic",
+        "Home Team": "CLE Cavaliers",
+        "Away Team": "ORL Magic",
+        "Cutoff Time": "2025-03-16T17:00:00Z",
+        "Home Odds": -1538,
+        "Away Odds": 1076
+    },
+    {
+        "Game Name": "DAL Mavericks v PHI 76ers",
+        "Home Team": "DAL Mavericks",
+        "Away Team": "PHI 76ers",
+        "Cutoff Time": "2025-03-16T17:00:00Z",
+        "Home Odds": -332,
+        "Away Odds": 281
+    },
+    {
+        "Game Name": "LA Lakers v PHX Suns",
+        "Home Team": "LA Lakers",
+        "Away Team": "PHX Suns",
+        "Cutoff Time": "2025-03-16T19:30:00Z",
+        "Home Odds": -128,
+        "Away Odds": 115
+    },
+    {
+        "Game Name": "BKN Nets v ATL Hawks",
+        "Home Team": "BKN Nets",
+        "Away Team": "ATL Hawks",
+        "Cutoff Time": "2025-03-16T22:00:00Z",
+        "Home Odds": 208,
+        "Away Odds": -240
+    },
+    {
+        "Game Name": "POR Trail Blazers v TOR Raptors",
+        "Home Team": "POR Trail Blazers",
+        "Away Team": "TOR Raptors",
+        "Cutoff Time": "2025-03-16T22:00:00Z",
+        "Home Odds": -231,
+        "Away Odds": 200
+    },
+    {
+        "Game Name": "LA Clippers v CHA Hornets",
+        "Home Team": "LA Clippers",
+        "Away Team": "CHA Hornets",
+        "Cutoff Time": "2025-03-16T23:00:00Z",
+        "Home Odds": -909,
+        "Away Odds": 483
+    },
+    {
+        "Game Name": "MIN Timberwolves v UTA Jazz",
+        "Home Team": "MIN Timberwolves",
+        "Away Team": "UTA Jazz",
+        "Cutoff Time": "2025-03-16T23:00:00Z",
+        "Home Odds": -884,
+        "Away Odds": 634
+    },
+    {
+        "Game Name": "MIL Bucks v OKC Thunder",
+        "Home Team": "MIL Bucks",
+        "Away Team": "OKC Thunder",
+        "Cutoff Time": "2025-03-17T01:00:00Z",
+        "Home Odds": 177,
+        "Away Odds": -202
+    },
+    {
+        "Game Name": "NY Knicks v MIA Heat",
+        "Home Team": "NY Knicks",
+        "Away Team": "MIA Heat",
+        "Cutoff Time": "2025-03-17T23:30:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    }
+]
