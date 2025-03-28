@@ -1,0 +1,82 @@
+[
+    {
+        "Game Name": "DET Pistons v CLE Cavaliers",
+        "Home Team": "DET Pistons",
+        "Away Team": "CLE Cavaliers",
+        "Cutoff Time": "2025-03-28T23:00:00Z",
+        "Home Odds": 217,
+        "Away Odds": -251
+    },
+    {
+        "Game Name": "BKN Nets v LA Clippers",
+        "Home Team": "BKN Nets",
+        "Away Team": "LA Clippers",
+        "Cutoff Time": "2025-03-28T23:30:00Z",
+        "Home Odds": 560,
+        "Away Odds": -757
+    },
+    {
+        "Game Name": "TOR Raptors v CHA Hornets",
+        "Home Team": "TOR Raptors",
+        "Away Team": "CHA Hornets",
+        "Cutoff Time": "2025-03-28T23:30:00Z",
+        "Home Odds": -214,
+        "Away Odds": 187
+    },
+    {
+        "Game Name": "MIL Bucks v NY Knicks",
+        "Home Team": "MIL Bucks",
+        "Away Team": "NY Knicks",
+        "Cutoff Time": "2025-03-29T00:00:00Z",
+        "Home Odds": -104,
+        "Away Odds": -106
+    },
+    {
+        "Game Name": "MIN Timberwolves v PHX Suns",
+        "Home Team": "MIN Timberwolves",
+        "Away Team": "PHX Suns",
+        "Cutoff Time": "2025-03-29T00:00:00Z",
+        "Home Odds": -278,
+        "Away Odds": 238
+    },
+    {
+        "Game Name": "NO Pelicans v GS Warriors",
+        "Home Team": "NO Pelicans",
+        "Away Team": "GS Warriors",
+        "Cutoff Time": "2025-03-29T00:00:00Z",
+        "Home Odds": 834,
+        "Away Odds": -1219
+    },
+    {
+        "Game Name": "DEN Nuggets v UTA Jazz",
+        "Home Team": "DEN Nuggets",
+        "Away Team": "UTA Jazz",
+        "Cutoff Time": "2025-03-29T01:00:00Z",
+        "Home Odds": -1785,
+        "Away Odds": 1113
+    },
+    {
+        "Game Name": "ORL Magic v SAC Kings",
+        "Home Team": "ORL Magic",
+        "Away Team": "SAC Kings",
+        "Cutoff Time": "2025-03-29T21:00:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    },
+    {
+        "Game Name": "WAS Wizards v BKN Nets",
+        "Home Team": "WAS Wizards",
+        "Away Team": "BKN Nets",
+        "Cutoff Time": "2025-03-29T23:00:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    },
+    {
+        "Game Name": "PHI 76ers v MIA Heat",
+        "Home Team": "PHI 76ers",
+        "Away Team": "MIA Heat",
+        "Cutoff Time": "2025-03-29T23:30:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    }
+]
