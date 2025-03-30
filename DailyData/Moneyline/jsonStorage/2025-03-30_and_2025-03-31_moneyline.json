@@ -1,0 +1,106 @@
+[
+    {
+        "Game Name": "CLE Cavaliers v LA Clippers",
+        "Home Team": "CLE Cavaliers",
+        "Away Team": "LA Clippers",
+        "Cutoff Time": "2025-03-30T19:30:00Z",
+        "Home Odds": -263,
+        "Away Odds": 226
+    },
+    {
+        "Game Name": "NY Knicks v POR Trail Blazers",
+        "Home Team": "NY Knicks",
+        "Away Team": "POR Trail Blazers",
+        "Cutoff Time": "2025-03-30T22:00:00Z",
+        "Home Odds": -305,
+        "Away Odds": 258
+    },
+    {
+        "Game Name": "MIL Bucks v ATL Hawks",
+        "Home Team": "MIL Bucks",
+        "Away Team": "ATL Hawks",
+        "Cutoff Time": "2025-03-30T23:00:00Z",
+        "Home Odds": -174,
+        "Away Odds": 154
+    },
+    {
+        "Game Name": "MIN Timberwolves v DET Pistons",
+        "Home Team": "MIN Timberwolves",
+        "Away Team": "DET Pistons",
+        "Cutoff Time": "2025-03-30T23:00:00Z",
+        "Home Odds": -273,
+        "Away Odds": 234
+    },
+    {
+        "Game Name": "NO Pelicans v CHA Hornets",
+        "Home Team": "NO Pelicans",
+        "Away Team": "CHA Hornets",
+        "Cutoff Time": "2025-03-30T23:00:00Z",
+        "Home Odds": -139,
+        "Away Odds": 124
+    },
+    {
+        "Game Name": "SA Spurs v GS Warriors",
+        "Home Team": "SA Spurs",
+        "Away Team": "GS Warriors",
+        "Cutoff Time": "2025-03-30T23:00:00Z",
+        "Home Odds": 466,
+        "Away Odds": -606
+    },
+    {
+        "Game Name": "PHI 76ers v TOR Raptors",
+        "Home Team": "PHI 76ers",
+        "Away Team": "TOR Raptors",
+        "Cutoff Time": "2025-03-30T23:30:00Z",
+        "Home Odds": 215,
+        "Away Odds": -250
+    },
+    {
+        "Game Name": "PHX Suns v HOU Rockets",
+        "Home Team": "PHX Suns",
+        "Away Team": "HOU Rockets",
+        "Cutoff Time": "2025-03-31T01:00:00Z",
+        "Home Odds": 111,
+        "Away Odds": -124
+    },
+    {
+        "Game Name": "CHA Hornets v UTA Jazz",
+        "Home Team": "CHA Hornets",
+        "Away Team": "UTA Jazz",
+        "Cutoff Time": "2025-03-31T23:00:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    },
+    {
+        "Game Name": "IND Pacers v SAC Kings",
+        "Home Team": "IND Pacers",
+        "Away Team": "SAC Kings",
+        "Cutoff Time": "2025-03-31T23:00:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    },
+    {
+        "Game Name": "ORL Magic v LA Clippers",
+        "Home Team": "ORL Magic",
+        "Away Team": "LA Clippers",
+        "Cutoff Time": "2025-03-31T23:00:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    },
+    {
+        "Game Name": "WAS Wizards v MIA Heat",
+        "Home Team": "WAS Wizards",
+        "Away Team": "MIA Heat",
+        "Cutoff Time": "2025-03-31T23:00:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    },
+    {
+        "Game Name": "MEM Grizzlies v BOS Celtics",
+        "Home Team": "MEM Grizzlies",
+        "Away Team": "BOS Celtics",
+        "Cutoff Time": "2025-03-31T23:30:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    }
+]
