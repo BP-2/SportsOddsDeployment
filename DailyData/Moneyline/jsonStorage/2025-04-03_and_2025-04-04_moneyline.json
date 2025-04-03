@@ -1,0 +1,82 @@
+[
+    {
+        "Game Name": "PHI 76ers v MIL Bucks",
+        "Home Team": "PHI 76ers",
+        "Away Team": "MIL Bucks",
+        "Cutoff Time": "2025-04-03T23:00:00Z",
+        "Home Odds": 501,
+        "Away Odds": -662
+    },
+    {
+        "Game Name": "WAS Wizards v ORL Magic",
+        "Home Team": "WAS Wizards",
+        "Away Team": "ORL Magic",
+        "Cutoff Time": "2025-04-03T23:00:00Z",
+        "Home Odds": 861,
+        "Away Odds": -1265
+    },
+    {
+        "Game Name": "BKN Nets v MIN Timberwolves",
+        "Home Team": "BKN Nets",
+        "Away Team": "MIN Timberwolves",
+        "Cutoff Time": "2025-04-03T23:30:00Z",
+        "Home Odds": 598,
+        "Away Odds": -826
+    },
+    {
+        "Game Name": "MIA Heat v MEM Grizzlies",
+        "Home Team": "MIA Heat",
+        "Away Team": "MEM Grizzlies",
+        "Cutoff Time": "2025-04-03T23:30:00Z",
+        "Home Odds": 178,
+        "Away Odds": -202
+    },
+    {
+        "Game Name": "TOR Raptors v POR Trail Blazers",
+        "Home Team": "TOR Raptors",
+        "Away Team": "POR Trail Blazers",
+        "Cutoff Time": "2025-04-03T23:30:00Z",
+        "Home Odds": 162,
+        "Away Odds": -184
+    },
+    {
+        "Game Name": "LA Lakers v GS Warriors",
+        "Home Team": "LA Lakers",
+        "Away Team": "GS Warriors",
+        "Cutoff Time": "2025-04-04T02:00:00Z",
+        "Home Odds": -112,
+        "Away Odds": 100
+    },
+    {
+        "Game Name": "CHA Hornets v SAC Kings",
+        "Home Team": "CHA Hornets",
+        "Away Team": "SAC Kings",
+        "Cutoff Time": "2025-04-04T23:00:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    },
+    {
+        "Game Name": "IND Pacers v UTA Jazz",
+        "Home Team": "IND Pacers",
+        "Away Team": "UTA Jazz",
+        "Cutoff Time": "2025-04-04T23:00:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    },
+    {
+        "Game Name": "BOS Celtics v PHX Suns",
+        "Home Team": "BOS Celtics",
+        "Away Team": "PHX Suns",
+        "Cutoff Time": "2025-04-04T23:30:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    },
+    {
+        "Game Name": "TOR Raptors v DET Pistons",
+        "Home Team": "TOR Raptors",
+        "Away Team": "DET Pistons",
+        "Cutoff Time": "2025-04-04T23:30:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    }
+]
