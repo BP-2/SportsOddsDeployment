@@ -1,0 +1,42 @@
+[
+    {
+        "Game Name": "IND Pacers v MIL Bucks",
+        "Home Team": "IND Pacers",
+        "Away Team": "MIL Bucks",
+        "Cutoff Time": "2025-04-22T23:00:00Z",
+        "Home Odds": -170,
+        "Away Odds": 150
+    },
+    {
+        "Game Name": "OKC Thunder v MEM Grizzlies",
+        "Home Team": "OKC Thunder",
+        "Away Team": "MEM Grizzlies",
+        "Cutoff Time": "2025-04-22T23:30:00Z",
+        "Home Odds": -1030,
+        "Away Odds": 715
+    },
+    {
+        "Game Name": "LA Lakers v MIN Timberwolves",
+        "Home Team": "LA Lakers",
+        "Away Team": "MIN Timberwolves",
+        "Cutoff Time": "2025-04-23T02:00:00Z",
+        "Home Odds": -253,
+        "Away Odds": 218
+    },
+    {
+        "Game Name": "BOS Celtics v ORL Magic",
+        "Home Team": "BOS Celtics",
+        "Away Team": "ORL Magic",
+        "Cutoff Time": "2025-04-23T23:00:00Z",
+        "Home Odds": -793,
+        "Away Odds": 577
+    },
+    {
+        "Game Name": "CLE Cavaliers v MIA Heat",
+        "Home Team": "CLE Cavaliers",
+        "Away Team": "MIA Heat",
+        "Cutoff Time": "2025-04-23T23:30:00Z",
+        "Home Odds": -684,
+        "Away Odds": 513
+    }
+]
