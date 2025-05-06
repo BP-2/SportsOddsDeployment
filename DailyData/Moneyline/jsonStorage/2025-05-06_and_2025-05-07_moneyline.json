@@ -1,0 +1,26 @@
+[
+    {
+        "Game Name": "CLE Cavaliers v IND Pacers",
+        "Home Team": "CLE Cavaliers",
+        "Away Team": "IND Pacers",
+        "Cutoff Time": "2025-05-06T23:00:00Z",
+        "Home Odds": -338,
+        "Away Odds": 283
+    },
+    {
+        "Game Name": "MIN Timberwolves v GS Warriors",
+        "Home Team": "MIN Timberwolves",
+        "Away Team": "GS Warriors",
+        "Cutoff Time": "2025-05-07T01:30:00Z",
+        "Home Odds": -248,
+        "Away Odds": 214
+    },
+    {
+        "Game Name": "BOS Celtics v NY Knicks",
+        "Home Team": "BOS Celtics",
+        "Away Team": "NY Knicks",
+        "Cutoff Time": "2025-05-07T23:00:00Z",
+        "Home Odds": -574,
+        "Away Odds": 443
+    }
+]
