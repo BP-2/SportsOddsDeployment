@@ -1,0 +1,26 @@
+[
+    {
+        "Game Name": "DEN Nuggets v OKC Thunder",
+        "Home Team": "DEN Nuggets",
+        "Away Team": "OKC Thunder",
+        "Cutoff Time": "2025-05-11T19:30:00Z",
+        "Home Odds": 227,
+        "Away Odds": -263
+    },
+    {
+        "Game Name": "IND Pacers v CLE Cavaliers",
+        "Home Team": "IND Pacers",
+        "Away Team": "CLE Cavaliers",
+        "Cutoff Time": "2025-05-12T00:00:00Z",
+        "Home Odds": 192,
+        "Away Odds": -220
+    },
+    {
+        "Game Name": "NY Knicks v BOS Celtics",
+        "Home Team": "NY Knicks",
+        "Away Team": "BOS Celtics",
+        "Cutoff Time": "2025-05-12T23:30:00Z",
+        "Home Odds": 216,
+        "Away Odds": -251
+    }
+]
