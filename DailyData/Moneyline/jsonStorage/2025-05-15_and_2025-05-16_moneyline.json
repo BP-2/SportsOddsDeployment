@@ -1,0 +1,18 @@
+[
+    {
+        "Game Name": "IND Pacers v CLE Cavaliers",
+        "Home Team": "IND Pacers",
+        "Away Team": "CLE Cavaliers",
+        "Cutoff Time": "2025-05-16T00:00:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    },
+    {
+        "Game Name": "DEN Nuggets v OKC Thunder",
+        "Home Team": "DEN Nuggets",
+        "Away Team": "OKC Thunder",
+        "Cutoff Time": "2025-05-16T00:30:00Z",
+        "Home Odds": 154,
+        "Away Odds": -174
+    }
+]
