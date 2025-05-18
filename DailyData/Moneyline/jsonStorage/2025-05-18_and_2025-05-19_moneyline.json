@@ -1,0 +1,26 @@
+[
+    {
+        "Game Name": "OKC Thunder v DEN Nuggets",
+        "Home Team": "OKC Thunder",
+        "Away Team": "DEN Nuggets",
+        "Cutoff Time": "2025-05-18T19:30:00Z",
+        "Home Odds": -337,
+        "Away Odds": 282
+    },
+    {
+        "Game Name": "CLE Cavaliers v IND Pacers",
+        "Home Team": "CLE Cavaliers",
+        "Away Team": "IND Pacers",
+        "Cutoff Time": "2025-05-18T23:00:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    },
+    {
+        "Game Name": "GS Warriors v MIN Timberwolves",
+        "Home Team": "GS Warriors",
+        "Away Team": "MIN Timberwolves",
+        "Cutoff Time": "2025-05-19T00:00:00Z",
+        "Home Odds": "N/A",
+        "Away Odds": "N/A"
+    }
+]
